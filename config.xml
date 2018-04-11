@@ -4,9 +4,11 @@
     <description>
         Game Portal for Social Multiplayer Games.
     </description>
-    <content src="index.html" />
-    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <content src="https://yoav-zibin.github.io/NewGamePortal" />
     <access origin="*" />
+    <access origin="https://yoav-zibin.github.io/NewGamePortal/*" />
+    <allow-navigation href="https://yoav-zibin.github.io/NewGamePortal/*" />
+    <allow-intent href="http://*/*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -20,5 +22,6 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
     <engine name="ios" spec="^4.5.4" />
 </widget>

@@ -23,24 +23,19 @@ if (window.cordova) {
 }
 ```
 ```
-npm run build
+$ npm run build
 ```
 
 ### NewGamePortalPhonegap Checklist 
-* Copy contents of NewGamePortal/build/ directory to www/
-* Make sure that in index.html you're calling the correct js file (change static/js/main.be6b2d5f.js to the actual js file in static/js/): 
-```javascript
-<script type="text/javascript" src="static/js/main.be6b2d5f.js"></script>
+* make sure cordova-plugin-whitelist is installed
 ```
-
-* Before that line add:
-```javascript
-<script type="text/javascript" src="cordova.js"></script>
+$ cordova plugin add cordova-plugin-whitelist
+$ cordova prepare
 ```
 
 * Run:
 ```
-cordova run ios
+$ cordova run ios
 ```
 
 # TODOS:
