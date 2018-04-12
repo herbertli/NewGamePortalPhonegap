@@ -16,6 +16,22 @@
 		3047A5131AB8059700498E2A /* build-release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5101AB8059700498E2A /* build-release.xcconfig */; };
 		3047A5141AB8059700498E2A /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5111AB8059700498E2A /* build.xcconfig */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
+		D6464602B15E426582D42350 /* Sms.m in Sources */ = {isa = PBXBuildFile; fileRef = 132125BD617C4FBA9F58C3B1 /* Sms.m */; };
+		5ABF310515964219ABA8AFEA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7853E9DC064E38AFDC96A6 /* MessageUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		5B18DA21AB15443DB804EE78 /* CDVContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = F57E98B13AD24D70BAA2F71F /* CDVContacts.m */; };
+		CD06BBB29FBF46738FB72CF7 /* CDVContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 0201C7BD8B0341BD9029D82D /* CDVContact.m */; };
+		3AE7DF64BC0745D0A3FEC3B5 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8ED85F4A2B435886EA7AAB /* AddressBook.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		2BF232E73CCE4A97A5947975 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC36A15924144D8FAEB44B2F /* AddressBookUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E608199651774951B05C79B8 /* CULPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2777AC05C0F949DD9E70DFB9 /* CULPlugin.m */; };
+		08C71DB33C82498197E5E9B3 /* AppDelegate+CULPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AB07CE3F344B37962DB277 /* AppDelegate+CULPlugin.m */; };
+		9353FD6E160F459C9DAE9950 /* CDVPluginResult+CULPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BDE3249F5547F68A47E0DB /* CDVPluginResult+CULPlugin.m */; };
+		FFB9301177994560A329784C /* CDVInvokedUrlCommand+CULPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E90A3D2C6DE64E6C9EEBF9D5 /* CDVInvokedUrlCommand+CULPlugin.m */; };
+		E332B93D022346DEB0731B1A /* CULHost.m in Sources */ = {isa = PBXBuildFile; fileRef = B566BE27B0FA4689A0270951 /* CULHost.m */; };
+		7F75CC57A29445BCBAAF9351 /* CULPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DEB129C5B94BB0A20AE0FF /* CULPath.m */; };
+		DBCDFDE7CFFD439281A69767 /* CULXmlTags.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CC1665AFCC4026A2C12450 /* CULXmlTags.m */; };
+		9600C18571BE4A768F789E51 /* CULConfigXmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6229155B1F4C47D79B9AF67C /* CULConfigXmlParser.m */; };
+		B4AF1215CB9E49B8A2F1AC8F /* NSBundle+CULPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E009ECFDB74F23BDC1047A /* NSBundle+CULPlugin.m */; };
+		99D5A6DA5545433EB54EF0DC /* GamePortal.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 8476C689358043E19261DB17 /* GamePortal.entitlements */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +72,34 @@
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "GamePortal/config.xml"; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		132125BD617C4FBA9F58C3B1 /* Sms.m */ = {isa = PBXFileReference; name = "Sms.m"; path = "cordova-sms-plugin/Sms.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		A9A19F0A699242548D5A717C /* Sms.h */ = {isa = PBXFileReference; name = "Sms.h"; path = "cordova-sms-plugin/Sms.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		0C7853E9DC064E38AFDC96A6 /* MessageUI.framework */ = {isa = PBXFileReference; name = "MessageUI.framework"; path = "System/Library/Frameworks/MessageUI.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		F57E98B13AD24D70BAA2F71F /* CDVContacts.m */ = {isa = PBXFileReference; name = "CDVContacts.m"; path = "cordova-plugin-contacts/CDVContacts.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		0201C7BD8B0341BD9029D82D /* CDVContact.m */ = {isa = PBXFileReference; name = "CDVContact.m"; path = "cordova-plugin-contacts/CDVContact.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		3E872A468BF845C5BCC3DBA6 /* CDVContacts.h */ = {isa = PBXFileReference; name = "CDVContacts.h"; path = "cordova-plugin-contacts/CDVContacts.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		CA305AB451EF411B83130F2A /* CDVContact.h */ = {isa = PBXFileReference; name = "CDVContact.h"; path = "cordova-plugin-contacts/CDVContact.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		1B8ED85F4A2B435886EA7AAB /* AddressBook.framework */ = {isa = PBXFileReference; name = "AddressBook.framework"; path = "System/Library/Frameworks/AddressBook.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		EC36A15924144D8FAEB44B2F /* AddressBookUI.framework */ = {isa = PBXFileReference; name = "AddressBookUI.framework"; path = "System/Library/Frameworks/AddressBookUI.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		2777AC05C0F949DD9E70DFB9 /* CULPlugin.m */ = {isa = PBXFileReference; name = "CULPlugin.m"; path = "cordova-universal-links-plugin/CULPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		F2AB07CE3F344B37962DB277 /* AppDelegate+CULPlugin.m */ = {isa = PBXFileReference; name = "AppDelegate+CULPlugin.m"; path = "cordova-universal-links-plugin/AppDelegate+CULPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		53BDE3249F5547F68A47E0DB /* CDVPluginResult+CULPlugin.m */ = {isa = PBXFileReference; name = "CDVPluginResult+CULPlugin.m"; path = "cordova-universal-links-plugin/JS/CDVPluginResult+CULPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		E90A3D2C6DE64E6C9EEBF9D5 /* CDVInvokedUrlCommand+CULPlugin.m */ = {isa = PBXFileReference; name = "CDVInvokedUrlCommand+CULPlugin.m"; path = "cordova-universal-links-plugin/JS/CDVInvokedUrlCommand+CULPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		B566BE27B0FA4689A0270951 /* CULHost.m */ = {isa = PBXFileReference; name = "CULHost.m"; path = "cordova-universal-links-plugin/Model/CULHost.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		27DEB129C5B94BB0A20AE0FF /* CULPath.m */ = {isa = PBXFileReference; name = "CULPath.m"; path = "cordova-universal-links-plugin/Model/CULPath.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		C9CC1665AFCC4026A2C12450 /* CULXmlTags.m */ = {isa = PBXFileReference; name = "CULXmlTags.m"; path = "cordova-universal-links-plugin/Parser/CULXmlTags.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		6229155B1F4C47D79B9AF67C /* CULConfigXmlParser.m */ = {isa = PBXFileReference; name = "CULConfigXmlParser.m"; path = "cordova-universal-links-plugin/Parser/CULConfigXmlParser.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		14E009ECFDB74F23BDC1047A /* NSBundle+CULPlugin.m */ = {isa = PBXFileReference; name = "NSBundle+CULPlugin.m"; path = "cordova-universal-links-plugin/Utils/NSBundle+CULPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		341C4790F9F04317BAD9C78D /* CULPlugin.h */ = {isa = PBXFileReference; name = "CULPlugin.h"; path = "cordova-universal-links-plugin/CULPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		7C50CD755A2745BA9C4EAF6C /* AppDelegate+CULPlugin.h */ = {isa = PBXFileReference; name = "AppDelegate+CULPlugin.h"; path = "cordova-universal-links-plugin/AppDelegate+CULPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		B52D0FD1146C4BA390B95A67 /* CDVPluginResult+CULPlugin.h */ = {isa = PBXFileReference; name = "CDVPluginResult+CULPlugin.h"; path = "cordova-universal-links-plugin/JS/CDVPluginResult+CULPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		9DF8ACD584C7465DA94D0EF5 /* CDVInvokedUrlCommand+CULPlugin.h */ = {isa = PBXFileReference; name = "CDVInvokedUrlCommand+CULPlugin.h"; path = "cordova-universal-links-plugin/JS/CDVInvokedUrlCommand+CULPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		E759099994DF4DE1958C8D51 /* CULHost.h */ = {isa = PBXFileReference; name = "CULHost.h"; path = "cordova-universal-links-plugin/Model/CULHost.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		836F5F9A04EC4CA2BEAF2C28 /* CULPath.h */ = {isa = PBXFileReference; name = "CULPath.h"; path = "cordova-universal-links-plugin/Model/CULPath.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		38722FEA46D94634B5504A0A /* CULXmlTags.h */ = {isa = PBXFileReference; name = "CULXmlTags.h"; path = "cordova-universal-links-plugin/Parser/CULXmlTags.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		4E08C9046D6F4F34A175D745 /* CULConfigXmlParser.h */ = {isa = PBXFileReference; name = "CULConfigXmlParser.h"; path = "cordova-universal-links-plugin/Parser/CULConfigXmlParser.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		19B2F7024061410883DE252C /* NSBundle+CULPlugin.h */ = {isa = PBXFileReference; name = "NSBundle+CULPlugin.h"; path = "cordova-universal-links-plugin/Utils/NSBundle+CULPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		8476C689358043E19261DB17 /* GamePortal.entitlements */ = {isa = PBXFileReference; name = "GamePortal.entitlements"; path = "GamePortal.entitlements"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +108,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
+				5ABF310515964219ABA8AFEA /* MessageUI.framework in Frameworks */,
+				3AE7DF64BC0745D0A3FEC3B5 /* AddressBook.framework in Frameworks */,
+				2BF232E73CCE4A97A5947975 /* AddressBookUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +173,7 @@
 				3047A50E1AB8057F00498E2A /* config */,
 				8D1107310486CEB800E47090 /* GamePortal-Info.plist */,
 				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
+				8476C689358043E19261DB17 /* GamePortal.entitlements */,
 			);
 			name = Resources;
 			path = "GamePortal/Resources";
@@ -134,6 +182,9 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0C7853E9DC064E38AFDC96A6 /* MessageUI.framework */,
+				1B8ED85F4A2B435886EA7AAB /* AddressBook.framework */,
+				EC36A15924144D8FAEB44B2F /* AddressBookUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,6 +210,30 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				132125BD617C4FBA9F58C3B1 /* Sms.m */,
+				A9A19F0A699242548D5A717C /* Sms.h */,
+				F57E98B13AD24D70BAA2F71F /* CDVContacts.m */,
+				0201C7BD8B0341BD9029D82D /* CDVContact.m */,
+				3E872A468BF845C5BCC3DBA6 /* CDVContacts.h */,
+				CA305AB451EF411B83130F2A /* CDVContact.h */,
+				2777AC05C0F949DD9E70DFB9 /* CULPlugin.m */,
+				F2AB07CE3F344B37962DB277 /* AppDelegate+CULPlugin.m */,
+				53BDE3249F5547F68A47E0DB /* CDVPluginResult+CULPlugin.m */,
+				E90A3D2C6DE64E6C9EEBF9D5 /* CDVInvokedUrlCommand+CULPlugin.m */,
+				B566BE27B0FA4689A0270951 /* CULHost.m */,
+				27DEB129C5B94BB0A20AE0FF /* CULPath.m */,
+				C9CC1665AFCC4026A2C12450 /* CULXmlTags.m */,
+				6229155B1F4C47D79B9AF67C /* CULConfigXmlParser.m */,
+				14E009ECFDB74F23BDC1047A /* NSBundle+CULPlugin.m */,
+				341C4790F9F04317BAD9C78D /* CULPlugin.h */,
+				7C50CD755A2745BA9C4EAF6C /* AppDelegate+CULPlugin.h */,
+				B52D0FD1146C4BA390B95A67 /* CDVPluginResult+CULPlugin.h */,
+				9DF8ACD584C7465DA94D0EF5 /* CDVInvokedUrlCommand+CULPlugin.h */,
+				E759099994DF4DE1958C8D51 /* CULHost.h */,
+				836F5F9A04EC4CA2BEAF2C28 /* CULPath.h */,
+				38722FEA46D94634B5504A0A /* CULXmlTags.h */,
+				4E08C9046D6F4F34A175D745 /* CULConfigXmlParser.h */,
+				19B2F7024061410883DE252C /* NSBundle+CULPlugin.h */,
 			);
 			name = Plugins;
 			path = "GamePortal/Plugins";
@@ -240,6 +315,7 @@
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
+				99D5A6DA5545433EB54EF0DC /* GamePortal.entitlements in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +347,18 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				D6464602B15E426582D42350 /* Sms.m in Sources */,
+				5B18DA21AB15443DB804EE78 /* CDVContacts.m in Sources */,
+				CD06BBB29FBF46738FB72CF7 /* CDVContact.m in Sources */,
+				E608199651774951B05C79B8 /* CULPlugin.m in Sources */,
+				08C71DB33C82498197E5E9B3 /* AppDelegate+CULPlugin.m in Sources */,
+				9353FD6E160F459C9DAE9950 /* CDVPluginResult+CULPlugin.m in Sources */,
+				FFB9301177994560A329784C /* CDVInvokedUrlCommand+CULPlugin.m in Sources */,
+				E332B93D022346DEB0731B1A /* CULHost.m in Sources */,
+				7F75CC57A29445BCBAAF9351 /* CULPath.m in Sources */,
+				DBCDFDE7CFFD439281A69767 /* CULXmlTags.m in Sources */,
+				9600C18571BE4A768F789E51 /* CULConfigXmlParser.m in Sources */,
+				B4AF1215CB9E49B8A2F1AC8F /* NSBundle+CULPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +394,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				PRODUCT_NAME = "GamePortal";
+				CODE_SIGN_ENTITLEMENTS = "GamePortal/Resources/GamePortal.entitlements";
 			};
 			name = Debug;
 		};
@@ -328,6 +417,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				PRODUCT_NAME = "GamePortal";
+				CODE_SIGN_ENTITLEMENTS = "GamePortal/Resources/GamePortal.entitlements";
 			};
 			name = Release;
 		};
@@ -354,6 +444,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
+				CODE_SIGN_ENTITLEMENTS = "GamePortal/Resources/GamePortal.entitlements";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
 		};
@@ -379,6 +471,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
+				CODE_SIGN_ENTITLEMENTS = "GamePortal/Resources/GamePortal.entitlements";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
 		};

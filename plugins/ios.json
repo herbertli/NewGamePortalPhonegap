@@ -9,6 +9,15 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "phonegap.gameportal"
+    },
+    "cordova-sms-plugin": {
+      "PACKAGE_NAME": "phonegap.gameportal"
+    },
+    "cordova-plugin-contacts": {
+      "PACKAGE_NAME": "phonegap.gameportal"
+    },
+    "cordova-universal-links-plugin": {
+      "PACKAGE_NAME": "phonegap.gameportal"
     }
   },
   "dependent_plugins": {}
