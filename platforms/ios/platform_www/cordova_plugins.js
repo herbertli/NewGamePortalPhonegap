@@ -1,14 +1,6 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
   {
-    "id": "cordova-sms-plugin.Sms",
-    "file": "plugins/cordova-sms-plugin/www/sms.js",
-    "pluginId": "cordova-sms-plugin",
-    "clobbers": [
-      "window.sms"
-    ]
-  },
-  {
     "id": "cordova-plugin-contacts.contacts",
     "file": "plugins/cordova-plugin-contacts/www/contacts.js",
     "pluginId": "cordova-plugin-contacts",
@@ -102,21 +94,47 @@ module.exports = [
     ]
   },
   {
+    "id": "cordova-plugin-iosrtc.Plugin",
+    "file": "plugins/cordova-plugin-iosrtc/dist/cordova-plugin-iosrtc.js",
+    "pluginId": "cordova-plugin-iosrtc",
+    "clobbers": [
+      "cordova.plugins.iosrtc"
+    ]
+  },
+  {
+    "id": "cordova-sms-plugin.Sms",
+    "file": "plugins/cordova-sms-plugin/www/sms.js",
+    "pluginId": "cordova-sms-plugin",
+    "clobbers": [
+      "window.sms"
+    ]
+  },
+  {
     "id": "cordova-universal-links-plugin.universalLinks",
     "file": "plugins/cordova-universal-links-plugin/www/universal_links.js",
     "pluginId": "cordova-universal-links-plugin",
     "clobbers": [
       "universalLinks"
     ]
+  },
+  {
+    "id": "phonegap-plugin-push.PushNotification",
+    "file": "plugins/phonegap-plugin-push/www/push.js",
+    "pluginId": "phonegap-plugin-push",
+    "clobbers": [
+      "PushNotification"
+    ]
   }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
+  "cordova-plugin-contacts": "3.0.1",
+  "cordova-plugin-iosrtc": "4.0.2",
   "cordova-plugin-whitelist": "1.3.3",
   "cordova-sms-plugin": "0.1.11",
-  "cordova-plugin-contacts": "3.0.1",
-  "cordova-universal-links-plugin": "1.2.1"
+  "cordova-universal-links-plugin": "1.2.1",
+  "phonegap-plugin-push": "2.2.2"
 };
 // BOTTOM OF METADATA
 });

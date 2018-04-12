@@ -19,15 +19,22 @@
         <param name="ios-package" value="CDVGestureHandler" />
         <param name="onload" value="true" />
     </feature>
-    <feature name="Sms">
-        <param name="ios-package" value="Sms" />
-    </feature>
     <feature name="Contacts">
         <param name="ios-package" value="CDVContacts" />
+    </feature>
+    <feature name="iosrtcPlugin">
+        <param name="ios-package" value="iosrtcPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Sms">
+        <param name="ios-package" value="Sms" />
     </feature>
     <feature name="UniversalLinks">
         <param name="ios-package" value="CULPlugin" />
         <param name="onload" value="true" />
+    </feature>
+    <feature name="PushNotification">
+        <param name="ios-package" value="PushPlugin" />
     </feature>
     <name>GamePortal</name>
     <description>
@@ -50,6 +57,17 @@
     </universal-links>
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
+    <resource-file src="GoogleService-Info.plist" />
+    <config-file parent="NSCameraUsageDescription" target="*-Info.plist">
+        <string>Blink uses your camera to make video calls.</string>
+    </config-file>
+    <config-file parent="NSContactsUsageDescription" target="*-Info.plist">
+        <string>Blink needs access to your contacts in order to be able to call them.</string>
+    </config-file>
+    <config-file parent="NSMicrophoneUsageDescription" target="*-Info.plist">
+        <string>Blink uses your microphone to make calls.</string>
+    </config-file>
+    <hook src="hooks/iosrtc-swift-support.js" type="after_platform_add" />
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="BackupWebStorage" value="cloud" />
     <preference name="DisallowOverscroll" value="false" />

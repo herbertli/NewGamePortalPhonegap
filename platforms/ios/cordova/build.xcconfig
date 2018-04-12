@@ -41,3 +41,9 @@ SWIFT_OBJC_BRIDGING_HEADER = $(PROJECT_DIR)/$(PROJECT_NAME)/Bridging-Header.h
 
 // (CB-11854)
 CODE_SIGN_ENTITLEMENTS = $(PROJECT_DIR)/$(PROJECT_NAME)/Entitlements-$(CONFIGURATION).plist
+
+LD_RUNPATH_SEARCH_PATHS = @executable_path/Frameworks
+SWIFT_OBJC_BRIDGING_HEADER = GamePortal/Plugins/cordova-plugin-iosrtc/cordova-plugin-iosrtc-Bridging-Header.h
+IPHONEOS_DEPLOYMENT_TARGET = 9.0
+ENABLE_BITCODE = NO
+SWIFT_VERSION = 3.0

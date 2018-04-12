@@ -1,0 +1,270 @@
+{
+  "project_info": {
+    "project_number": "144595629077",
+    "firebase_url": "https://universalgamemaker.firebaseio.com",
+    "project_id": "universalgamemaker",
+    "storage_bucket": "universalgamemaker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144595629077:android:0cd3aa3999b1912f",
+        "android_client_info": {
+          "package_name": "com.gameportal.phonegap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144595629077-j8rps88v9isa1uthrac2ll2fnd367143.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "144595629077-3pu0e02pilor0fv3dh2uhlol9jriao1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmRQIcz7cPJXu28k9bo43b9nqQCI4naxE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144595629077:android:8fcd672bd000fc95",
+        "android_client_info": {
+          "package_name": "com.gameportalreactnative"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144595629077-3vt3lu0b4c0589fr0los56b6674g3gf4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gameportalreactnative",
+            "certificate_hash": "e1c0318ab6b86853ba6028b1ffc905aa49aa9585"
+          }
+        },
+        {
+          "client_id": "144595629077-58mpc811p4s3tl2m6630qt661tttrf8g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gameportalreactnative",
+            "certificate_hash": "a4a9e6987f5843f1fabcbfc49c9aada33176c15a"
+          }
+        },
+        {
+          "client_id": "144595629077-j8rps88v9isa1uthrac2ll2fnd367143.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "144595629077-q4mqo97k5jjlac91fq3t9n0msjlgc766.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gameportalreactnative",
+            "certificate_hash": "de5637b87621132ada5f99a86553afb8d4572d40"
+          }
+        },
+        {
+          "client_id": "144595629077-3pu0e02pilor0fv3dh2uhlol9jriao1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmRQIcz7cPJXu28k9bo43b9nqQCI4naxE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144595629077-udj2ka43q0s5op3uqp213istvnkehihg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gameportal.phonegap"
+              }
+            },
+            {
+              "client_id": "144595629077-j8rps88v9isa1uthrac2ll2fnd367143.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144595629077:android:b77f274e172b23da",
+        "android_client_info": {
+          "package_name": "com.nyuchess.gameportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144595629077-j8rps88v9isa1uthrac2ll2fnd367143.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "144595629077-7o4frmq7e1b8tks1akvvii87hcf6et7s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nyuchess.gameportal",
+            "certificate_hash": "a72f5b4d789fa1537bdfedec977cfea30772db6d"
+          }
+        },
+        {
+          "client_id": "144595629077-q5madqf53fe8bmnacb6eucbtnl1tkigk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nyuchess.gameportal",
+            "certificate_hash": "cbf7c94bb4ca792ee43b315d055e1beedf2ba7b7"
+          }
+        },
+        {
+          "client_id": "144595629077-3pu0e02pilor0fv3dh2uhlol9jriao1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmRQIcz7cPJXu28k9bo43b9nqQCI4naxE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144595629077-udj2ka43q0s5op3uqp213istvnkehihg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gameportal.phonegap"
+              }
+            },
+            {
+              "client_id": "144595629077-j8rps88v9isa1uthrac2ll2fnd367143.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144595629077:android:2b6065e31659e7f6",
+        "android_client_info": {
+          "package_name": "com.phonegap.helloworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144595629077-2jqlhik50nch17kuqsd0hbqbktlbn7bd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.phonegap.helloworld",
+            "certificate_hash": "42d1bba6cdabf2ae6d786e5eb433260ab9139b38"
+          }
+        },
+        {
+          "client_id": "144595629077-j8rps88v9isa1uthrac2ll2fnd367143.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "144595629077-3pu0e02pilor0fv3dh2uhlol9jriao1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmRQIcz7cPJXu28k9bo43b9nqQCI4naxE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144595629077-udj2ka43q0s5op3uqp213istvnkehihg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gameportal.phonegap"
+              }
+            },
+            {
+              "client_id": "144595629077-j8rps88v9isa1uthrac2ll2fnd367143.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144595629077:android:174c93225af94b82",
+        "android_client_info": {
+          "package_name": "com.zibiga.GamePortalTest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144595629077-j8rps88v9isa1uthrac2ll2fnd367143.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "144595629077-3pu0e02pilor0fv3dh2uhlol9jriao1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmRQIcz7cPJXu28k9bo43b9nqQCI4naxE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

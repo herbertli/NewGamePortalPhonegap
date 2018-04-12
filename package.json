@@ -1,27 +1,33 @@
 {
-    "name": "helloworld",
-    "displayName": "HelloCordova",
+    "name": "GamePortalPhonegap",
+    "displayName": "GamePortalPhonegap",
     "version": "1.0.0",
-    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "description": "GamePortal for Social Multiplayer Games.",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Apache Cordova Team",
+    "author": "NYU Social Multiplayer Games",
     "license": "Apache-2.0",
     "dependencies": {
         "cordova-ios": "^4.5.4",
         "cordova-plugin-contacts": "^3.0.1",
+        "cordova-plugin-iosrtc": "^4.0.2",
         "cordova-plugin-whitelist": "^1.3.3",
         "cordova-sms-plugin": "^0.1.11",
-        "cordova-universal-links-plugin": "^1.2.1"
+        "cordova-universal-links-plugin": "^1.2.1",
+        "phonegap-plugin-push": "^2.2.2",
+        "xcode": "^1.0.0"
     },
     "cordova": {
         "plugins": {
             "cordova-plugin-whitelist": {},
             "cordova-sms-plugin": {},
-            "cordova-plugin-contacts": {},
-            "cordova-universal-links-plugin": {}
+            "cordova-plugin-contacts": {
+                "CONTACTS_USAGE_DESCRIPTION": "GamePortal wants to use your contacts"
+            },
+            "cordova-universal-links-plugin": {},
+            "cordova-plugin-iosrtc": {}
         },
         "platforms": [
             "ios"

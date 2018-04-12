@@ -1,0 +1,87 @@
+{
+  "_from": "cordova-plugin-iosrtc",
+  "_id": "cordova-plugin-iosrtc@4.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-FS2Q9ceOvJ+NVfxLRtpcFT+jQU0=",
+  "_location": "/cordova-plugin-iosrtc",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-iosrtc",
+    "name": "cordova-plugin-iosrtc",
+    "escapedName": "cordova-plugin-iosrtc",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-iosrtc/-/cordova-plugin-iosrtc-4.0.2.tgz",
+  "_shasum": "152d90f5c78ebc9f8d55fc4b46da5c153fa3414d",
+  "_spec": "cordova-plugin-iosrtc",
+  "_where": "/Users/herbert/Documents/GitHub/NewGamePortalPhonegap",
+  "author": {
+    "name": "Iñaki Baz Castillo",
+    "url": "https://inakibaz.me"
+  },
+  "bugs": {
+    "url": "https://github.com/BasqueVoIPMafia/cordova-plugin-iosrtc/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Saúl Ibarra Corretgé",
+      "url": "http://bettercallsaghul.com"
+    }
+  ],
+  "cordova": {
+    "id": "cordova-plugin-iosrtc",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "dependencies": {
+    "debug": "^2.6.8",
+    "domready": "^1.0.8",
+    "random-number": "^0.0.7",
+    "yaeti": "^0.0.6"
+  },
+  "deprecated": false,
+  "description": "Cordova iOS plugin exposing the full WebRTC W3C JavaScript APIs",
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "gulp": "git+https://github.com/gulpjs/gulp.git#4.0",
+    "gulp-derequire": "^2.1.0",
+    "gulp-header": "^1.8.8",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jscs-stylish": "^1.4.0",
+    "gulp-jshint": "^2.0.4",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "~2.2.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "engines": [
+    {
+      "name": "cordova-ios",
+      "version": ">=3.8.0"
+    }
+  ],
+  "homepage": "https://github.com/BasqueVoIPMafia/cordova-plugin-iosrtc",
+  "keywords": [
+    "ecosystem:cordova",
+    "webrtc",
+    "ios"
+  ],
+  "license": "MIT",
+  "main": "js/iosrtc.js",
+  "name": "cordova-plugin-iosrtc",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BasqueVoIPMafia/cordova-plugin-iosrtc.git"
+  },
+  "version": "4.0.2"
+}
