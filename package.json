@@ -27,7 +27,8 @@
                 "CONTACTS_USAGE_DESCRIPTION": "GamePortal wants to use your contacts"
             },
             "cordova-universal-links-plugin": {},
-            "cordova-plugin-iosrtc": {}
+            "cordova-plugin-iosrtc": {},
+            "phonegap-plugin-push": {}
         },
         "platforms": [
             "ios"

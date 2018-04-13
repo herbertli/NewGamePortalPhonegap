@@ -4,11 +4,9 @@
     <description>
         Game Portal for Social Multiplayer Games.
     </description>
-    <content src="https://yoav-zibin.github.io/NewGamePortal" />
+    <content src="index.html" />
     <access origin="*" />
-    <access origin="https://yoav-zibin.github.io/NewGamePortal/*" />
     <allow-navigation href="https://yoav-zibin.github.io/NewGamePortal/*" />
-    <allow-intent href="http://*/*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -54,5 +52,6 @@
         <hook src="hooks/iosrtc-swift-support.js" type="after_platform_add" />
     </platform>
     <plugin name="cordova-plugin-iosrtc" spec="^4.0.2" />
+    <plugin name="phonegap-plugin-push" spec="^2.2.2" />
     <engine name="ios" spec="^4.5.4" />
 </widget>

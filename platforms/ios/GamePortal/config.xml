@@ -40,9 +40,8 @@
     <description>
         Game Portal for Social Multiplayer Games.
     </description>
-    <content src="https://yoav-zibin.github.io/NewGamePortal" />
+    <content src="index.html" />
     <access origin="*" />
-    <access origin="https://yoav-zibin.github.io/NewGamePortal/*" />
     <allow-navigation href="https://yoav-zibin.github.io/NewGamePortal/*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
