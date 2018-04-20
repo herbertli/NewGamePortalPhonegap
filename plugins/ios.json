@@ -24,6 +24,9 @@
     },
     "phonegap-plugin-push": {
       "PACKAGE_NAME": "phonegap.gameportal"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "phonegap.gameportal"
     }
   },
   "dependent_plugins": {}

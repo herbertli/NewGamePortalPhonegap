@@ -1,0 +1,30 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-contacts": {
+      "PACKAGE_NAME": "phonegap.gameportal"
+    },
+    "cordova-plugin-iosrtc": {
+      "PACKAGE_NAME": "phonegap.gameportal"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "phonegap.gameportal"
+    },
+    "cordova-sms-plugin": {
+      "PACKAGE_NAME": "phonegap.gameportal"
+    },
+    "cordova-universal-links-plugin": {
+      "PACKAGE_NAME": "phonegap.gameportal"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "phonegap.gameportal"
+    }
+  },
+  "dependent_plugins": {}
+}

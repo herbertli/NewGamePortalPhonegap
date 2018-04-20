@@ -21,6 +21,7 @@
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
 		367AB75CBE014A568B54D5B4 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B4560C2964BC28B1AFF0B /* libsqlite3.0.dylib */; };
 		3682A75E485F498189937011 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B54D27AAB2435D90338FAB /* libc++.dylib */; };
+		3713B0B3D5DB48EF9277B063 /* AppDelegate+notification.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D66C1227E24F06A8FC5F93 /* AppDelegate+notification.m */; };
 		3C9202E708894857A530D287 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFE5558D4B54F02904E2031 /* AddressBookUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		48EF919345B24E68B48AAB89 /* GamePortal.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 3B54ED74394D4BD0B4587969 /* GamePortal.entitlements */; };
 		4B91182C108E4FB9B6D31BBE /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B49D6F467E4884B52ECF66 /* GLKit.framework */; };
@@ -35,9 +36,12 @@
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
 		716B6A2A518E4583BBC427E5 /* AppDelegate+CULPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 012E5B87801F4C0285EEDA30 /* AppDelegate+CULPlugin.m */; };
 		7259AABAEA914EA598679E35 /* NSBundle+CULPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = DC420061BA1D46D1A5AF8F75 /* NSBundle+CULPlugin.m */; };
+		7B950A216E9A4E8C909E454A /* PushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421084A908A24096B959F8EA /* PushKit.framework */; };
+		844248357BD04BB2B709EFDF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE1F727ABDE4656A8F5B2DB /* libz.tbd */; };
 		8CE10EE567A34A41A8AF79C7 /* CULPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FA875F2E39456D903FD3A9 /* CULPlugin.m */; };
 		93252B76349F4E13B388A244 /* PluginMediaStreamTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47BB1DB1BC143FC84871D34 /* PluginMediaStreamTrack.swift */; };
 		9E9697CBC4DC41AE95879098 /* CULConfigXmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A86D194DF1B4B4881831E8B /* CULConfigXmlParser.m */; };
+		A740A42DEAC14A6DBC6FA09E /* PushPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A9F6371382400F8D6C7BBE /* PushPlugin.m */; };
 		ABADE0EB7905453A9991C849 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C112DAE09444E34975223CE /* CoreAudio.framework */; };
 		AE109766684448FAB02A580F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F223A35631894B689733FE57 /* QuartzCore.framework */; };
 		AEF479C2FE4B40EFA4F3032B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C43A45AD6B4DB2BECE08CD /* MessageUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -49,6 +53,7 @@
 		D64F876D26F84C18B075C2C1 /* PluginRTCPeerConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D86938C1C14B52812D3827 /* PluginRTCPeerConnection.swift */; };
 		DE01F8C9A71E4FA780B4C014 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBD5E07CB22487C94266310 /* AddressBook.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		E0CBB3EBFDCD4E22A7DB5231 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314F16F9A249497386E0BCC7 /* AudioToolbox.framework */; };
+		E52ED8B32F2C499995CA82C4 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB4288B889D452C904F10D6 /* CDVDevice.m */; };
 		E7540DCD448C4C19BB9A6B4C /* libWebRTC-LATEST-Universal-Release.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 024C47F731B44D04834BEF6E /* libWebRTC-LATEST-Universal-Release.a */; };
 		E900128FD1D44744B034CAF4 /* PluginEnumerateDevices.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AE09BA429B4A41987A0C31 /* PluginEnumerateDevices.swift */; };
 		E91BB506BDAE4D758D1971C3 /* PluginMediaStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA43164AC540483282E31159 /* PluginMediaStream.swift */; };
@@ -58,9 +63,6 @@
 		EF326AAA75A44DB6B8A0E0BF /* CULHost.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF8E87738B4421180B3415B /* CULHost.m */; };
 		F3A6A571157B840F679387C3 /* libPods-GamePortal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41310C1AA5689F32E0E8A4D2 /* libPods-GamePortal.a */; };
 		F6ED05750FEE4B1BA22DEF6A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515F5A69E17442C4BB6FC860 /* CoreMedia.framework */; };
-		3713B0B3D5DB48EF9277B063 /* AppDelegate+notification.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D66C1227E24F06A8FC5F93 /* AppDelegate+notification.m */; };
-		A740A42DEAC14A6DBC6FA09E /* PushPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A9F6371382400F8D6C7BBE /* PushPlugin.m */; };
-		7B950A216E9A4E8C909E454A /* PushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421084A908A24096B959F8EA /* PushKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +95,7 @@
 		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GamePortal/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		024C47F731B44D04834BEF6E /* libWebRTC-LATEST-Universal-Release.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = "libWebRTC-LATEST-Universal-Release.a"; path = "GamePortal/Plugins/cordova-plugin-iosrtc/libWebRTC-LATEST-Universal-Release.a"; sourceTree = "<group>"; };
 		02CB506E72AF438594679E7E /* RTCMediaStreamTrack.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCMediaStreamTrack.h; path = "cordova-plugin-iosrtc/RTCMediaStreamTrack.h"; sourceTree = "<group>"; };
+		04D66C1227E24F06A8FC5F93 /* AppDelegate+notification.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+notification.m"; path = "phonegap-plugin-push/AppDelegate+notification.m"; sourceTree = "<group>"; };
 		058086253DCB4CFC8502A193 /* CoreVideo.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		077D49689C7E462D808240C4 /* RTCDTMFSender.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCDTMFSender.h; path = "cordova-plugin-iosrtc/RTCDTMFSender.h"; sourceTree = "<group>"; };
 		0A86D194DF1B4B4881831E8B /* CULConfigXmlParser.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CULConfigXmlParser.m; path = "cordova-universal-links-plugin/Parser/CULConfigXmlParser.m"; sourceTree = "<group>"; };
@@ -124,6 +127,7 @@
 		3047A50F1AB8059700498E2A /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-debug.xcconfig"; path = "cordova/build-debug.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
+		30A9F6371382400F8D6C7BBE /* PushPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = PushPlugin.m; path = "phonegap-plugin-push/PushPlugin.m"; sourceTree = "<group>"; };
 		314F16F9A249497386E0BCC7 /* AudioToolbox.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		31A6BD94AA4D46BA937B06E0 /* CDVContacts.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVContacts.m; path = "cordova-plugin-contacts/CDVContacts.m"; sourceTree = "<group>"; };
 		31B3B603343F48909343CD84 /* RTCLogging.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCLogging.h; path = "cordova-plugin-iosrtc/RTCLogging.h"; sourceTree = "<group>"; };
@@ -136,10 +140,13 @@
 		3B0D64ABA1644C9A80709280 /* Sms.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = Sms.m; path = "cordova-sms-plugin/Sms.m"; sourceTree = "<group>"; };
 		3B54ED74394D4BD0B4587969 /* GamePortal.entitlements */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = GamePortal.entitlements; sourceTree = "<group>"; };
 		41310C1AA5689F32E0E8A4D2 /* libPods-GamePortal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GamePortal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		421084A908A24096B959F8EA /* PushKit.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
 		4787AC8A05D8455487D4805D /* RTCAudioSource.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCAudioSource.h; path = "cordova-plugin-iosrtc/RTCAudioSource.h"; sourceTree = "<group>"; };
 		4B21B750C844490293EA8149 /* NSBundle+CULPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "NSBundle+CULPlugin.h"; path = "cordova-universal-links-plugin/Utils/NSBundle+CULPlugin.h"; sourceTree = "<group>"; };
 		4B6E7F66393542458CDF6014 /* PluginRTCDTMFSender.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = PluginRTCDTMFSender.swift; path = "cordova-plugin-iosrtc/PluginRTCDTMFSender.swift"; sourceTree = "<group>"; };
+		5020E95EBDAB4332BA7A0CF2 /* CDVDevice.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVDevice.h; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; };
 		515F5A69E17442C4BB6FC860 /* CoreMedia.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		52C53CE887554007BE1C6A2D /* PushPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = PushPlugin.h; path = "phonegap-plugin-push/PushPlugin.h"; sourceTree = "<group>"; };
 		54BB9D2F4F6A4A34AC6411E6 /* RTCStatsReport.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCStatsReport.h; path = "cordova-plugin-iosrtc/RTCStatsReport.h"; sourceTree = "<group>"; };
 		568D1F5E2377413BA1853957 /* CDVContact.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVContact.m; path = "cordova-plugin-contacts/CDVContact.m"; sourceTree = "<group>"; };
 		5EA767F2972B4792BA2C6E13 /* RTCAVFoundationVideoSource.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCAVFoundationVideoSource.h; path = "cordova-plugin-iosrtc/RTCAVFoundationVideoSource.h"; sourceTree = "<group>"; };
@@ -172,7 +179,9 @@
 		B3B54D27AAB2435D90338FAB /* libc++.dylib */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		B4EC6CEDAA7C42D7A1BFADB0 /* cordova-plugin-iosrtc-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "cordova-plugin-iosrtc-Bridging-Header.h"; path = "cordova-plugin-iosrtc/cordova-plugin-iosrtc-Bridging-Header.h"; sourceTree = "<group>"; };
 		B9D6D907B2844E0DAAE0A922 /* CULPath.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CULPath.h; path = "cordova-universal-links-plugin/Model/CULPath.h"; sourceTree = "<group>"; };
+		C414DBA0797349CDB7A4DCFB /* AppDelegate+notification.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+notification.h"; path = "phonegap-plugin-push/AppDelegate+notification.h"; sourceTree = "<group>"; };
 		CA535653BD39445398600C55 /* libstdc++.dylib */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		CAB4288B889D452C904F10D6 /* CDVDevice.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVDevice.m; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; };
 		CF07CE18B01A46689FDDE7A4 /* RTCMediaConstraints.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCMediaConstraints.h; path = "cordova-plugin-iosrtc/RTCMediaConstraints.h"; sourceTree = "<group>"; };
 		D040DBCF465047AAAD985218 /* PluginRTCPeerConnectionConstraints.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = PluginRTCPeerConnectionConstraints.swift; path = "cordova-plugin-iosrtc/PluginRTCPeerConnectionConstraints.swift"; sourceTree = "<group>"; };
 		D0DE3F5B496E493F9E2BF883 /* RTCMediaStream.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCMediaStream.h; path = "cordova-plugin-iosrtc/RTCMediaStream.h"; sourceTree = "<group>"; };
@@ -180,6 +189,7 @@
 		D3C19E8D9C1C4C4C8F84C34F /* RTCAudioTrack.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCAudioTrack.h; path = "cordova-plugin-iosrtc/RTCAudioTrack.h"; sourceTree = "<group>"; };
 		DA43164AC540483282E31159 /* PluginMediaStream.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = PluginMediaStream.swift; path = "cordova-plugin-iosrtc/PluginMediaStream.swift"; sourceTree = "<group>"; };
 		DC420061BA1D46D1A5AF8F75 /* NSBundle+CULPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+CULPlugin.m"; path = "cordova-universal-links-plugin/Utils/NSBundle+CULPlugin.m"; sourceTree = "<group>"; };
+		DEE1F727ABDE4656A8F5B2DB /* libz.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		DF7B4560C2964BC28B1AFF0B /* libsqlite3.0.dylib */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		E2AB4E270A9C48D191872E6C /* RTCTypes.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCTypes.h; path = "cordova-plugin-iosrtc/RTCTypes.h"; sourceTree = "<group>"; };
 		E5B3A1C16BF644CA876EAEAB /* RTCVideoCapturer.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCVideoCapturer.h; path = "cordova-plugin-iosrtc/RTCVideoCapturer.h"; sourceTree = "<group>"; };
@@ -197,11 +207,6 @@
 		F707E41CD74B4B7BAB819B2A /* PluginRTCDataChannel.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = PluginRTCDataChannel.swift; path = "cordova-plugin-iosrtc/PluginRTCDataChannel.swift"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = GamePortal/config.xml; sourceTree = "<group>"; };
 		FF281507562C47DFA391BE1B /* RTCICEServer.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RTCICEServer.h; path = "cordova-plugin-iosrtc/RTCICEServer.h"; sourceTree = "<group>"; };
-		04D66C1227E24F06A8FC5F93 /* AppDelegate+notification.m */ = {isa = PBXFileReference; name = "AppDelegate+notification.m"; path = "phonegap-plugin-push/AppDelegate+notification.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		30A9F6371382400F8D6C7BBE /* PushPlugin.m */ = {isa = PBXFileReference; name = "PushPlugin.m"; path = "phonegap-plugin-push/PushPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		C414DBA0797349CDB7A4DCFB /* AppDelegate+notification.h */ = {isa = PBXFileReference; name = "AppDelegate+notification.h"; path = "phonegap-plugin-push/AppDelegate+notification.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		52C53CE887554007BE1C6A2D /* PushPlugin.h */ = {isa = PBXFileReference; name = "PushPlugin.h"; path = "phonegap-plugin-push/PushPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		421084A908A24096B959F8EA /* PushKit.framework */ = {isa = PBXFileReference; name = "PushKit.framework"; path = "System/Library/Frameworks/PushKit.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +234,7 @@
 				AEF479C2FE4B40EFA4F3032B /* MessageUI.framework in Frameworks */,
 				F3A6A571157B840F679387C3 /* libPods-GamePortal.a in Frameworks */,
 				7B950A216E9A4E8C909E454A /* PushKit.framework in Frameworks */,
+				844248357BD04BB2B709EFDF /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +327,7 @@
 				86C43A45AD6B4DB2BECE08CD /* MessageUI.framework */,
 				41310C1AA5689F32E0E8A4D2 /* libPods-GamePortal.a */,
 				421084A908A24096B959F8EA /* PushKit.framework */,
+				DEE1F727ABDE4656A8F5B2DB /* libz.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -420,6 +427,8 @@
 				30A9F6371382400F8D6C7BBE /* PushPlugin.m */,
 				C414DBA0797349CDB7A4DCFB /* AppDelegate+notification.h */,
 				52C53CE887554007BE1C6A2D /* PushPlugin.h */,
+				CAB4288B889D452C904F10D6 /* CDVDevice.m */,
+				5020E95EBDAB4332BA7A0CF2 /* CDVDevice.h */,
 			);
 			name = Plugins;
 			path = GamePortal/Plugins;
@@ -473,7 +482,13 @@
 				LastUpgradeCheck = 510;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = 3B24UCE5E7;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -603,6 +618,7 @@
 				7259AABAEA914EA598679E35 /* NSBundle+CULPlugin.m in Sources */,
 				3713B0B3D5DB48EF9277B063 /* AppDelegate+notification.m in Sources */,
 				A740A42DEAC14A6DBC6FA09E /* PushPlugin.m in Sources */,
+				E52ED8B32F2C499995CA82C4 /* CDVDevice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -630,7 +646,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3B24UCE5E7;
 				ENABLE_BITCODE = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -645,6 +661,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/GamePortal/Plugins/cordova-plugin-iosrtc\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gameportal.phonegap;
 				PRODUCT_NAME = GamePortal;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "GamePortal/Plugins/cordova-plugin-iosrtc/cordova-plugin-iosrtc-Bridging-Header.h";
@@ -666,7 +683,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3B24UCE5E7;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GamePortal/GamePortal-Prefix.pch";
@@ -679,6 +696,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/GamePortal/Plugins/cordova-plugin-iosrtc\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gameportal.phonegap;
 				PRODUCT_NAME = GamePortal;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "GamePortal/Plugins/cordova-plugin-iosrtc/cordova-plugin-iosrtc-Bridging-Header.h";

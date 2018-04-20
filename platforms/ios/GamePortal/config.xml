@@ -36,13 +36,16 @@
     <feature name="PushNotification">
         <param name="ios-package" value="PushPlugin" />
     </feature>
+    <feature name="Device">
+        <param name="ios-package" value="CDVDevice" />
+    </feature>
     <name>GamePortal</name>
     <description>
         Game Portal for Social Multiplayer Games.
     </description>
-    <content src="index.html" />
+    <content src="http://localhost:3000?platform=ios" />
     <access origin="*" />
-    <allow-navigation href="https://yoav-zibin.github.io/NewGamePortal/*" />
+    <allow-navigation href="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -58,13 +61,13 @@
     <allow-intent href="itms-apps:*" />
     <resource-file src="GoogleService-Info.plist" />
     <config-file parent="NSCameraUsageDescription" target="*-Info.plist">
-        <string>Blink uses your camera to make video calls.</string>
+        <string>Game Portal uses your camera to make video calls.</string>
     </config-file>
     <config-file parent="NSContactsUsageDescription" target="*-Info.plist">
-        <string>Blink needs access to your contacts in order to be able to call them.</string>
+        <string>Game Portal needs access to your contacts in order to be able to call them.</string>
     </config-file>
     <config-file parent="NSMicrophoneUsageDescription" target="*-Info.plist">
-        <string>Blink uses your microphone to make calls.</string>
+        <string>Game Portal uses your microphone to make calls.</string>
     </config-file>
     <hook src="hooks/iosrtc-swift-support.js" type="after_platform_add" />
     <preference name="AllowInlineMediaPlayback" value="false" />
