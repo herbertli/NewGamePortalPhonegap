@@ -10,6 +10,9 @@
     "cordova-plugin-contacts": {
       "PACKAGE_NAME": "phonegap.gameportal"
     },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "phonegap.gameportal"
+    },
     "cordova-plugin-iosrtc": {
       "PACKAGE_NAME": "phonegap.gameportal"
     },
@@ -23,9 +26,6 @@
       "PACKAGE_NAME": "phonegap.gameportal"
     },
     "phonegap-plugin-push": {
-      "PACKAGE_NAME": "phonegap.gameportal"
-    },
-    "cordova-plugin-device": {
       "PACKAGE_NAME": "phonegap.gameportal"
     }
   },

@@ -22,6 +22,9 @@
     <feature name="Contacts">
         <param name="ios-package" value="CDVContacts" />
     </feature>
+    <feature name="Device">
+        <param name="ios-package" value="CDVDevice" />
+    </feature>
     <feature name="iosrtcPlugin">
         <param name="ios-package" value="iosrtcPlugin" />
         <param name="onload" value="true" />
@@ -36,14 +39,11 @@
     <feature name="PushNotification">
         <param name="ios-package" value="PushPlugin" />
     </feature>
-    <feature name="Device">
-        <param name="ios-package" value="CDVDevice" />
-    </feature>
     <name>GamePortal</name>
     <description>
         Game Portal for Social Multiplayer Games.
     </description>
-    <content src="http://localhost:3000?platform=ios" />
+    <content src="https://yoav-zibin.github.io/NewGamePortal?platform=ios" />
     <access origin="*" />
     <allow-navigation href="*" />
     <allow-intent href="http://*/*" />
