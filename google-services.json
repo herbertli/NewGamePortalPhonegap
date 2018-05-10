@@ -95,15 +95,15 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "144595629077-j8rps88v9isa1uthrac2ll2fnd367143.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "144595629077-6pipad1orgo44v43rul1jlu0o115l3hs.apps.googleusercontent.com",
+              "client_id": "144595629077-itr9jk85hnb9mp6eng172lu5s124rpqm.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "phonegap.gameportal"
+                "bundle_id": "com.zibiga"
               }
+            },
+            {
+              "client_id": "144595629077-j8rps88v9isa1uthrac2ll2fnd367143.apps.googleusercontent.com",
+              "client_type": 3
             }
           ]
         },
@@ -158,15 +158,15 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "144595629077-j8rps88v9isa1uthrac2ll2fnd367143.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "144595629077-6pipad1orgo44v43rul1jlu0o115l3hs.apps.googleusercontent.com",
+              "client_id": "144595629077-itr9jk85hnb9mp6eng172lu5s124rpqm.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "phonegap.gameportal"
+                "bundle_id": "com.zibiga"
               }
+            },
+            {
+              "client_id": "144595629077-j8rps88v9isa1uthrac2ll2fnd367143.apps.googleusercontent.com",
+              "client_type": 3
             }
           ]
         },
@@ -213,17 +213,52 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "144595629077-j8rps88v9isa1uthrac2ll2fnd367143.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "144595629077-6pipad1orgo44v43rul1jlu0o115l3hs.apps.googleusercontent.com",
+              "client_id": "144595629077-itr9jk85hnb9mp6eng172lu5s124rpqm.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "phonegap.gameportal"
+                "bundle_id": "com.zibiga"
               }
+            },
+            {
+              "client_id": "144595629077-j8rps88v9isa1uthrac2ll2fnd367143.apps.googleusercontent.com",
+              "client_type": 3
             }
           ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144595629077:android:45827626deb5f23d",
+        "android_client_info": {
+          "package_name": "com.zibiga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144595629077-j8rps88v9isa1uthrac2ll2fnd367143.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "144595629077-3pu0e02pilor0fv3dh2uhlol9jriao1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmRQIcz7cPJXu28k9bo43b9nqQCI4naxE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
         },
         "ads_service": {
           "status": 2

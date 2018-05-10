@@ -8,25 +8,25 @@
   },
   "installed_plugins": {
     "cordova-plugin-contacts": {
-      "PACKAGE_NAME": "phonegap.gameportal"
+      "PACKAGE_NAME": "com.zibiga"
     },
     "cordova-plugin-device": {
-      "PACKAGE_NAME": "phonegap.gameportal"
+      "PACKAGE_NAME": "com.zibiga"
     },
     "cordova-plugin-iosrtc": {
-      "PACKAGE_NAME": "phonegap.gameportal"
+      "PACKAGE_NAME": "com.zibiga"
     },
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "phonegap.gameportal"
+      "PACKAGE_NAME": "com.zibiga"
     },
     "cordova-sms-plugin": {
-      "PACKAGE_NAME": "phonegap.gameportal"
+      "PACKAGE_NAME": "com.zibiga"
     },
     "cordova-universal-links-plugin": {
-      "PACKAGE_NAME": "phonegap.gameportal"
+      "PACKAGE_NAME": "com.zibiga"
     },
     "phonegap-plugin-push": {
-      "PACKAGE_NAME": "phonegap.gameportal"
+      "PACKAGE_NAME": "com.zibiga"
     }
   },
   "dependent_plugins": {}

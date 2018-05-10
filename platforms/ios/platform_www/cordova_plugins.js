@@ -138,7 +138,7 @@ module.exports.metadata =
 // TOP OF METADATA
 {
   "cordova-plugin-contacts": "3.0.1",
-  "cordova-plugin-device": "2.0.1",
+  "cordova-plugin-device": "2.0.2",
   "cordova-plugin-iosrtc": "4.0.2",
   "cordova-plugin-whitelist": "1.3.3",
   "cordova-sms-plugin": "0.1.11",
